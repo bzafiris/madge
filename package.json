@@ -1,5 +1,5 @@
 {
-  "name": "madge",
+  "name": "@bzafiris/madge",
   "version": "3.6.0",
   "author": "Patrik Henningsson <patrik.henningsson@gmail.com>",
   "repository": "git://github.com/pahen/madge",
@@ -74,6 +74,8 @@
     "eslint": "^6.6.0",
     "mocha": "^6.2.2",
     "mz": "^2.7.0",
-    "should": "^13.2.3"
+    "should": "^13.2.3",
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0"
   }
 }
