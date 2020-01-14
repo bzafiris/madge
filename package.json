@@ -43,8 +43,7 @@
         "compile-libgraphjs": "babel lib\\graph.js -o lib\\graph.js --require babel-polyfill --presets env",
         "compile-libcyclicjs": "babel lib\\cyclic.js -o lib\\cyclic.js --require babel-polyfill --presets env",
         "compile-liboutputjs": "babel lib\\output.js -o lib\\output.js --require babel-polyfill --presets env",
-        "compile-rollupconfigjs": "babel rollup.config.js -o rollup.config.js --require babel-polyfill --presets es2015-without-strict",
-        "compile-1_script": "npm run compile-libapijs && npm run compile-liblogjs && npm run compile-libtreejs && npm run compile-libgraphjs && npm run compile-libcyclicjs && npm run compile-liboutputjs && npm run compile-rollupconfigjs",
+        "compile-1_script": "npm run compile-libapijs && npm run compile-liblogjs && npm run compile-libtreejs && npm run compile-libgraphjs && npm run compile-libcyclicjs && npm run compile-liboutputjs",
         "compile": "npm run compile-1_script"
     },
     "funding": {
